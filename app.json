@@ -1,0 +1,41 @@
+{
+    "name": "Remove-BG",
+    "logo": "https://telegra.ph//file/5c6b34a5f190425798d49.jpg",
+    "description": "I Am A Background Remover Bot For Telegram",
+    "keywords": [
+        "Background",
+        "Telegram",
+        "Bot",
+        "BgRemove"
+    ],
+    "repository": "https://github.com/SuryaPrabhas1245/Remove-BG",
+    "website": "https://github.com/SuryaPrabhas1245/Remove-BG",
+    "env": {
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "required": "True"
+        },
+        "API_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "required": "True"
+        },
+        "BOT_TOKEN": {
+            "description": "Your bot token from @BotFather",
+            "required": "True"
+        },
+        "REMOVEBG_API": {
+            "description": "Your remove bg api from removebg.com/api",
+            "required": "True"
+        },
+        "UNSCREEN_API": {
+            "description": "Your unscreen api from unscreen.com/api",
+            "required": "True"
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
