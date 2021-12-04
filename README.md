@@ -15,4 +15,4 @@ I Am A Background Remover Bot For Telegram
 
 # Credits
 
-[Fayas Noushad](https://github.com/FayasNoushad)
+• [Fayas Noushad](https://github.com/FayasNoushad)
