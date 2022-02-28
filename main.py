@@ -17,24 +17,24 @@ Bot = Client(
 
 START_TEXT = """Hello {},
 I am a media background remover bot. Send me a photo I will send the photo without background.
-Made by @SuryaPrabhas"""
+Made by @Oxyver_Owner"""
 HELP_TEXT = """**More Help**
 - Just send me a photo
 - I will download it
 - I will send the photo without background
-Made by @SuryaPrabhas"""
+Made by @Oxyver_Owner"""
 ABOUT_TEXT = """
 - **Bot :** `Backround Remover Bot`
-- **Creator :** [Surya Prabhas](https://telegram.me/suryaprabhas1245)
-- **Channel :** [Click](https://telegram.me/TeluguDubbedHorrorMovies2)
-- **Source :** [Click here](https://github.com/SuryaPrabhas1245/Remove-BG/tree/main)
+- **Creator :** [꧁𒆜🅻🆄🅲🅺🆈𒆜꧂](https://telegram.me/Oxyver_Owner)
+- **Channel :** [Click](https://telegram.me/B4U_movies_in_hindi)
+- **Source :** [Contact here](https://telegram.me/Oxyver_Owner)
 - **Language :** [Python3](https://python.org)
 - **Library :** [Pyrogram](https://pyrogram.org)"""
 START_BUTTONS = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton('Channel', url='https://telegram.me/TeluguDubbedHorrorMovies2'),
-            InlineKeyboardButton('Feedback', url='https://telegram.me/suryaprabhas1245')
+            InlineKeyboardButton('Channel', url='https://telegram.me/B4U_movies_in_hindi'),
+            InlineKeyboardButton('Feedback', url='https://telegram.me/Oxyver_Support')
         ],
         [
             InlineKeyboardButton('Help', callback_data='help'),
